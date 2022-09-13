@@ -1,0 +1,37 @@
+h1{
+    color: brown;
+}
+li,
+.link{
+    color: blue;
+}
+h2{
+    color: blueviolet;
+}
+.marchuk-content > p,
+.kryvolap-content > p,
+.chychkan-content >p,
+.tistol-content >p,
+.mass-content>p
+{
+    color: yellowgreen;
+}
+.marchuk-content  ~ p,
+.kryvolap-content ~ p,
+.chychkan-content ~ p,
+.tistol-content ~ p,
+.mass-content ~ p
+{
+    color: goldenrod;
+}
+.marchuk-content  + p,
+.kryvolap-content + p,
+.chychkan-content + p,
+.tistol-content + p,
+.mass-content +p
+{
+    color: rgb(218, 32, 150);
+}
+
+
+
